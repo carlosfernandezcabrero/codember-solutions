@@ -8,21 +8,7 @@ Repositorio creada para compartir mis soluciones a los retos de [Codember](https
 
 Detalles de las soluciones existentes en este repo:
 
-<table>
-    <thead>
-        <tr>
-            <th style="width: 20%;">Reto</th>
-            <th style="width: 20%;">Lenguaje</th>
-            <th style="width: 60%;">Detalles</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>01</td>
-            <td>Python</td>
-            <td>
-                <a href="https://github.com/carlosfernandezcabrero/codember-solutions/tree/main/challenge01">Enlace</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| Reto     | Lenguaje            |                                |
+| -------- | ------------------- | ------------------------------ |
+| 1        | Python              | [Ver solución](./challenge01/) |
+| 2        | Python              | [Ver solución](./challenge02/) |
