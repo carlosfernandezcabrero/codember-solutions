@@ -1,34 +1,36 @@
-with open("./input.txt", "r") as f:
-    input = f.read()
+POSSIBLE_WORD_LENGTH = [3, 2]
+ASCII_CODE_A = 97
+ASCII_CODE_Z = 122
+
+f = open("./input.txt", "r")
+input = f.read()
+f.close()
+
+
+def main():
     result = ""
     count = 0
 
     while count < len(input):
-        chars_read = 0
-        letter_to_add = ""
-
         next_char = input[count]
 
         if next_char == " ":
-            letter_to_add = " "
-            chars_read = 1
-        else:
-            letters = input[count : count + 3]
-            code = int(letters)
+            result += " "
+            count += 1
+            continue
 
-            if code > 99 and code < 123:
-                letter_to_add = chr(code)
-                chars_read = 3
+        for length in POSSIBLE_WORD_LENGTH:
+            code = int(input[count : count + length])
 
-            if chars_read == 0:
-                letters = letters[:2]
-                code = int(letters)
+            if code >= ASCII_CODE_A and code <= ASCII_CODE_Z:
+                result += chr(code)
+                count += length
+                break
 
-                if code > 96 and code < 100:
-                    letter_to_add = chr(code)
-                    chars_read = 2
+    return result
 
-        result += letter_to_add
-        count += chars_read
 
-    print(f"Result-> {result}")
+if __name__ == "__main__":
+    solution = main()
+
+    print(f"Result-> {solution}")
