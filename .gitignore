@@ -8,6 +8,7 @@ env/
 
 # Python compiled files
 *.py[cod]
+__pycache__/
 
 # System files
 .DS_Store
