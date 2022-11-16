@@ -5,3 +5,9 @@
 # Python virtual environments
 venv/
 env/
+
+# Python compiled files
+*.py[cod]
+
+# System files
+.DS_Store
