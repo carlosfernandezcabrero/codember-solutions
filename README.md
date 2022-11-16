@@ -6,14 +6,23 @@ Repositorio creada para compartir mis soluciones a los retos de [Codember](https
 
 ## Retos
 
-<style>
-    table {
-        width:100%;
-    }
-</style>
-
 Detalles de las soluciones existentes en este repo:
 
-| Reto | Lenguaje | Detalles                                                                                     |
-| --   | --       | --                                                                                           |
-| 01   | Python   | [Enlace](https://github.com/carlosfernandezcabrero/codember-solutions/tree/main/challenge01) |
+<table>
+    <thead>
+        <tr>
+            <th>Reto</th>
+            <th>Lenguaje</th>
+            <th>Detalles</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>01</td>
+            <td>Python</td>
+            <td>
+                <a href="https://github.com/carlosfernandezcabrero/codember-solutions/tree/main/challenge01">Enlace</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
