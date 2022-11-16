@@ -8,7 +8,7 @@ Repositorio creada para compartir mis soluciones a los retos de [Codember](https
 
 Detalles de las soluciones existentes en este repo:
 
-| Reto     | Lenguaje            |                                |
-| -------- | ------------------- | ------------------------------ |
-| 1        | Python              | [Ver solución](./challenge01/) |
-| 2        | Python              | [Ver solución](./challenge02/) |
+| Reto     | Nombre                           | Lenguaje            |                                |
+| -------- | -------------------------------- | ------------------- | ------------------------------ |
+| 1        | ¡Arregla Twitter!                | Python              | [Ver solución](./challenge01/) |
+| 2        | ¡Atrapa a esos ciber criminales! | Python              | [Ver solución](./challenge02/) |
