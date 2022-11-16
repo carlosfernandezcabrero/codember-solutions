@@ -8,7 +8,7 @@ Repositorio creada para compartir mis soluciones a los retos de [Codember](https
 
 Detalles de las soluciones existentes en este repo:
 
-<table>
+<table style="width: 100%;">
     <thead>
         <tr>
             <th>Reto</th>
