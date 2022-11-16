@@ -8,12 +8,12 @@ Repositorio creada para compartir mis soluciones a los retos de [Codember](https
 
 Detalles de las soluciones existentes en este repo:
 
-<table style="width: 100%;">
+<table>
     <thead>
         <tr>
-            <th>Reto</th>
-            <th>Lenguaje</th>
-            <th>Detalles</th>
+            <th style="width: 20%;">Reto</th>
+            <th style="width: 20%;">Lenguaje</th>
+            <th style="width: 60%;">Detalles</th>
         </tr>
     </thead>
     <tbody>
