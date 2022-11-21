@@ -1,5 +1,4 @@
 POSSIBLE_WORD_LENGTH = [3, 2]
-ASCII_CODE_A = 97
 ASCII_CODE_Z = 122
 
 f = open("./input.txt", "r")
@@ -20,9 +19,16 @@ def main():
             continue
 
         for length in POSSIBLE_WORD_LENGTH:
-            code = int(input[count : count + length])
+            letter = input[count : count + length]
 
-            if code >= ASCII_CODE_A and code <= ASCII_CODE_Z:
+            if " " in letter:
+                continue
+
+            code = int(letter)
+            lower_limit = 10 ** (length - 1)
+            upper_limit = ASCII_CODE_Z if length == 3 else 10**length
+
+            if code >= lower_limit and code <= upper_limit:
                 result += chr(code)
                 count += length
                 break
