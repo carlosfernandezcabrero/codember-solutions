@@ -12,3 +12,5 @@ Detalles de las soluciones existentes en este repo:
 | -------- | -------------------------------- | ------------------- | ------------------------------ |
 | 1        | ¡Arregla Twitter!                | Python              | [Ver solución](./challenge01/) |
 | 2        | ¡Atrapa a esos ciber criminales! | Python              | [Ver solución](./challenge02/) |
+| 3        | Cebra de colores                 | Python              | [Ver solución](./challenge03/) |
+| 4        | Amigo, perdí mi contraseña.      | Python              | [Ver solución](./challenge04/) |
