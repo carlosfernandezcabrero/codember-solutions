@@ -10,5 +10,11 @@ env/
 *.py[cod]
 __pycache__/
 
+# Node.js compiled files
+node_modules/
+
+# Lock files
+package-lock.json
+
 # System files
 .DS_Store
