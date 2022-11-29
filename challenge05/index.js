@@ -9,23 +9,18 @@ const dataWithIndex = data.map((username, idx) => ({
 
 let index = 0
 let usersKilled = 0
-let hasBeenKilled = false
 let hasBeenLooked = false
 
 while (usersKilled < dataWithIndex.length - 1) {
   const indexTo = index % dataWithIndex.length
   const userInfo = dataWithIndex[indexTo]
 
-  if (!userInfo.isKilled && hasBeenLooked && !hasBeenKilled) {
+  if (!userInfo.isKilled && hasBeenLooked) {
     userInfo.isKilled = true
     usersKilled++
     hasBeenLooked = false
-    hasBeenKilled = true
   }
-  if (!userInfo.isKilled && !hasBeenLooked) {
-    hasBeenLooked = true
-    hasBeenKilled = false
-  }
+  if (!userInfo.isKilled && !hasBeenLooked) hasBeenLooked = true
 
   index++
 }
